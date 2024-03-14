@@ -1,0 +1,144 @@
+.view-sharing__create-link {
+  display: block;
+  line-height: 56px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 20px;
+  color: $color-neutral-900;
+  @include rounded($rounded-md);
+  @include flex-align-items(20px);
+
+  &:hover {
+    text-decoration: none;
+    background-color: $color-neutral-100;
+  }
+
+  &.view-sharing__create-link--disabled {
+    color: $color-neutral-500;
+    background-color: transparent;
+
+    &:hover {
+      cursor: inherit;
+    }
+  }
+}
+
+.view-sharing__create-link-icon {
+  color: $color-warning-500;
+  font-size: 20px;
+
+  .view-sharing__create-link--disabled & {
+    color: $color-neutral-500;
+  }
+}
+
+.view-sharing__shared-link {
+  padding: 25px 25px;
+}
+
+.view-sharing__shared-link-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.view-sharing__shared-link-description {
+  margin-bottom: 15px;
+}
+
+.view-sharing__shared-link-content {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.view-sharing__shared-link-box {
+  background-color: $color-neutral-100;
+  line-height: 32px;
+  padding: 0 8px;
+  font-family: monospace;
+  font-size: 10px;
+  min-width: 0;
+  @include rounded($rounded);
+}
+
+.view-sharing__shared-link-action {
+  position: relative;
+  width: 32px;
+  margin-left: 8px;
+  line-height: 32px;
+  color: $color-neutral-900;
+  font-size: 14px;
+  text-align: center;
+  @include rounded($rounded);
+
+  &:not(.view-sharing__shared-link-action--loading):hover {
+    background-color: $color-neutral-100;
+  }
+
+  &.view-sharing__shared-link-action--loading {
+    color: $white;
+    cursor: inherit;
+
+    &::before {
+      content: '';
+      margin-top: -7px;
+      margin-left: -7px;
+      z-index: 1;
+
+      @include loading(14px);
+      @include absolute(50%, auto, auto, 50%);
+    }
+  }
+
+  &.view-sharing__shared-link-action--disabled {
+    color: $color-neutral-900;
+    background-color: transparent;
+
+    &:hover {
+      cursor: inherit;
+    }
+  }
+}
+
+.view-sharing__shared-link-foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-sharing__shared-link-disable {
+  @include flex-align-items(4px);
+
+  color: $color-error-500;
+}
+
+.view-sharing__shared-link-options {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.view-sharing__option {
+  @include flex-align-items(4px);
+
+  &--disabled {
+    cursor: pointer;
+    color: $color-neutral-500;
+  }
+}
+
+.view-sharing__option-icon {
+  font-size: 14px;
+}
+
+p.box__description {
+  margin-bottom: 15px;
+}
+
+.view-sharing__option-change-password {
+  margin-left: 12px;
+  @include flex-align-items(4px);
+
+  &:hover {
+    text-decoration: none;
+    color: $color-neutral-900;
+  }
+}

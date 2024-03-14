@@ -1,0 +1,58 @@
+<template>
+  <div class="switch" :class="classNames" @click="toggle(value)">
+    <div v-if="hasSlot" class="switch__label"><slot></slot></div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'SwitchInput',
+  props: {
+    /**
+     * The value of the switch.
+     */
+    value: {
+      type: [Boolean, Number],
+      required: false,
+      default: false,
+    },
+    /**
+     * The size of the switch.
+     */
+    small: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    /**
+     * Whether the switch is disabled.
+     */
+    disabled: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
+  computed: {
+    hasSlot() {
+      return !!this.$slots.default
+    },
+    classNames() {
+      return {
+        'switch--small': this.small,
+        'switch--disabled': this.disabled,
+        'switch--active': this.value,
+        'switch--indeterminate': this.value !== true && this.value !== false,
+      }
+    },
+  },
+  methods: {
+    toggle(value) {
+      if (this.disabled) {
+        return
+      }
+      this.$emit('input', !value)
+    },
+  },
+}
+</script>

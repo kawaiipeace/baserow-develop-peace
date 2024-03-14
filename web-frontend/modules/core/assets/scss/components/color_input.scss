@@ -1,0 +1,11 @@
+.color-input__preview {
+  display: block;
+  width: 40px;
+  height: 20px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px rgba($black, 0.2);
+
+  &:hover {
+    box-shadow: 1px 1px 1px 0 rgba($black, 0.2);
+  }
+}

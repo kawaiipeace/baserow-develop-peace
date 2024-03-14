@@ -1,0 +1,27 @@
+.formula-input-field {
+  font-size: 13px;
+  line-height: 22px;
+  padding: 10px 12px;
+  min-height: 34px;
+  height: auto;
+}
+
+.formula-input-field--small {
+  line-height: 13px;
+}
+
+.formula-input-field--focused {
+  border-color: $color-primary-500;
+}
+
+.formula-input-field__reset-button {
+  width: 100%;
+}
+
+.ProseMirror div.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: $color-neutral-500;
+  pointer-events: none;
+  height: 0;
+}

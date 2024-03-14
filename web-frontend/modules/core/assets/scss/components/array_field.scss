@@ -1,0 +1,123 @@
+.array-field__item {
+  white-space: nowrap;
+  margin: 5px 0;
+  padding: 0 5px;
+  background-color: $color-neutral-100;
+  display: flex;
+  @include rounded($rounded);
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  @include fixed-height(22px, 13px);
+}
+
+.array-field__item--button {
+  background-color: inherit;
+  margin: 3px 0;
+}
+
+.array-field__name {
+  @extend %ellipsis;
+
+  max-width: 140px;
+}
+
+.array-field__date {
+  white-space: nowrap;
+  margin: 5px 0;
+  padding: 0 5px;
+  background-color: $color-neutral-100;
+  display: flex;
+  @include rounded($rounded);
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  @include fixed-height(22px, 13px);
+}
+
+.array-field__time {
+  padding-left: 5px;
+}
+
+.array-field__single-select-option {
+  white-space: nowrap;
+  margin: 6px 4px 4px 4px;
+  overflow: unset;
+
+  @include select-option-style(flex, true);
+}
+
+.array-field__multiple-select-item {
+  display: flex;
+}
+
+.array-field__multiple-select-option {
+  white-space: nowrap;
+  margin: auto 0;
+  margin-right: 5px;
+  overflow: unset;
+
+  @include select-option-style(flex, true);
+}
+
+.array-field__file {
+  white-space: nowrap;
+  margin: 5px 3px;
+  display: flex;
+  height: 22px;
+}
+
+.array-field__file-link {
+  cursor: initial;
+
+  // The link is not clickable when the cell is not active.
+  .active & {
+    cursor: pointer;
+  }
+}
+
+%array-field__file-border {
+  border: solid 1px $color-neutral-400;
+
+  @include rounded($rounded);
+}
+
+.array-field__file-image {
+  @extend %array-field__file-border;
+
+  display: block;
+  width: auto;
+  height: 22px;
+}
+
+.array-field__file-icon {
+  @extend %array-field__file-border;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-neutral-600;
+  width: 22px;
+  height: 22px;
+}
+
+.array-field__boolean {
+  height: 32px;
+  display: flex;
+}
+
+.array-field__checkbox {
+  margin: auto;
+  color: $color-success-600;
+
+  @include center-text(18px, 11px);
+  @include rounded($rounded);
+
+  &--false {
+    color: $color-error-600;
+  }
+}

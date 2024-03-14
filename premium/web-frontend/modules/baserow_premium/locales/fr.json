@@ -1,0 +1,362 @@
+{
+    "premium": {
+        "user": {
+            "isStaff": "Est collaborateur",
+            "isWorkspaceAdmin": "Est l'administrateur du projet",
+            "active": "Actif",
+            "deactivated": "Inactif"
+        },
+        "adminType": {
+            "dashboard": "Statistiques",
+            "users": "Utilisateurs",
+            "workspaces": "Projets",
+            "licenses": "Licences"
+        },
+        "viewType": {
+            "kanban": "Kanban",
+            "calendar": "Calendrier"
+        },
+        "exporterType": {
+            "json": "Exporter vers JSON",
+            "xml": "Exporter vers XML"
+        },
+        "deactivated": "Disponible en version premium"
+    },
+    "rowCommentSidebar": {
+        "onlyPremium": "Les commentaires de lignes sont disponibles dans la version premium.",
+        "readOnlyNoComment": "Aucun commentaire pour cette ligne.",
+        "noComment": "Aucun commentaire pour cette ligne. Utilisez le formulaire ci-dessous pour ajouter un commentaire.",
+        "comment": "Commentaire",
+        "more": "Plus d'informations",
+        "name": "Commentaires"
+    },
+    "rowComment": {
+        "you": "Vous",
+        "anonymous": "Anonyme",
+        "deleting": "suppression",
+        "created": "créé",
+        "commentTrashed": "Ce commentaire a été supprimé.",
+        "errorUserNotCommentAuthorTitle": "Impossible de mettre à jour ou de supprimer.",
+        "errorUserNotCommentAuthor": "Seul l’auteur du commentaire peut le mettre à jour ou le supprimer.",
+        "creating": "création",
+        "updating": "mise à jour",
+        "edited": "édité",
+        "errorInvalidCommentMentionTitle": "Mention invalide",
+        "errorInvalidCommentMention": "L’utilisateur mentionné n’existe pas."
+    },
+    "registerLicenseModal": {
+        "titleRegisterLicense": "Activer une licence",
+        "registerLicense": "Activer la licence",
+        "viewPricing": "Consultez les tarifs",
+        "licenseDescription": "Une licence peut-être obtenue uniquement sur baserow.io. Si vous avez déjà acheté une licence, elle vous sera envoyée par email et vous pourrez la consulter dans votre compte. Copiez-collez la clé de licence dans le champ ci-dessous et cliquez sur le bouton afin d'activer la licence pour cette instance de Baserow. Il n'est pas possible d'utiliser la même clé pour plusieurs instances. {pricingLink} si vous n'avez pas encore de clé.",
+        "licenseError": {
+            "invalidTitle": "Invalide",
+            "invalid": "La licence fournie est invalide.",
+            "unsupportedTitle": "Non supportée",
+            "unsupported": "La licence fournie est incompatible avec la version actuelle de Baserow. Veuillez mettre à jour votre instance avec la dernière version et essayez de nouveau.",
+            "expiredTitle": "Expirée",
+            "expired": "La licence fournie a expiré.",
+            "duplicateTitle": "Déja enregistrée",
+            "duplicate": "La licence fournie est déjà enregistrée sur cette instance.",
+            "instanceMismatchTitle": "Instance incorrecte",
+            "instanceMismatch": "La licence fournie n'a pas été créée pour cette instance."
+        }
+    },
+    "disconnectLicenseModal": {
+        "disconnectLicense": "Déconnecter la licence",
+        "disconnectDescription": "Êtes-vous sur·e de vouloir déconnecter la licence ? Si vous déconnectez la licence alors que celle-ci est active, les utilisateurs associés n'auront plus accès aux fonctionnalités qu'elle offre. Cela retire définitivement la licence. Veuillez contacter notre support via {contact} si vous souhaitez utiliser cette licence sur une autre instance hebergée."
+    },
+    "registerLicenseForm": {
+        "licenseKey": "Clé de licence"
+    },
+    "workspacesAdminTable": {
+        "allWorkspaces": "Liste des projets",
+        "id": "ID",
+        "name": "Nom",
+        "members": "Membres",
+        "applications": "Applications",
+        "created": "Créé le",
+        "seatsTaken": "Places occupées",
+        "storageUsage": "Stockage utilisé (Mo)",
+        "rowCount": "Nombre de lignes",
+        "freeUsers": "Utilisateurs gratuits",
+        "usageHelpText": "Calculé chaque nuit lorsque le paramètre de suivi de l'utilisation des projets est activé"
+    },
+    "editWorkspaceContext": {
+        "delete": "Supprimer définitivement"
+    },
+    "deleteWorkspaceModal": {
+        "title": "Supprimer {name}",
+        "confirmation": "Êtes-vous sûr·e de vouloir supprimer le projet : {name} ?",
+        "comment": "Le projet va être supprimé définitivement ainsi que ses applications liées. Il est impossible d'annuler cette action.",
+        "delete": "Supprimer le projet {name}"
+    },
+    "activeUsers": {
+        "newUsers": "Nouveaux utilisateurs",
+        "activeUsers": "Utilisateurs actifs"
+    },
+    "usersAdminTable": {
+        "allUsers": "Liste des utilisateurs",
+        "id": "ID",
+        "username": "Identifiant",
+        "name": "Nom",
+        "workspaces": "Projets",
+        "lastLogin": "Dernière connexion",
+        "dateJoined": "Date d'inscription",
+        "active": "Actif"
+    },
+    "editUserContext": {
+        "changePassword": "Modifier le mot de passe",
+        "delete": "Supprimer définitivement",
+        "impersonate": "Usurper"
+    },
+    "changePasswordForm": {
+        "newPassword": "Nouveau mot de passe",
+        "repeatPassword": "Répétez le mot de passe",
+        "changePassword": "Mettre à jour le mot de passe",
+        "error": {
+            "doesntMatch": "Les deux mots de passe ne correspondent pas."
+        }
+    },
+    "userForm": {
+        "fullName": "Nom complet",
+        "email": "Adresse électronique",
+        "isActive": "Est actif",
+        "warning": {
+            "changeEmail": "Si vous changez l'adresse électronique, l'utilisateur devra désormais utiliser celle-ci pour s'identifier. Ceci doit être signifié à l'utilisateur.",
+            "inactiveUser": "Un utilisateur inactif n'est plus en mesure de s'identifier.",
+            "userStaff": "Un collaborateur a accès à la liste des utilisateurs, des projets et peut changer les permissions de tous les utilisateurs."
+        },
+        "error": {
+            "invalidName": "Veuillez saisir un nom valide, il doit être composé de plus de 2 caractères et moins de 150.",
+            "invalidEmail": "Veuillez saisir une adresse électronique valide."
+        }
+    },
+    "changeUserPasswordModal": {
+        "changePassword": "Changer le mot de passe pour {username}"
+    },
+    "deleteUserModal": {
+        "title": "Supprimer {username}",
+        "confirmation": "Êtes-vous sûr·e de vouloir supprimer l'utilisateur : {name} ?",
+        "comment1": "Le compte de l'utilisateur va être supprimé, cependant les projets dont l'utilisateur est membre vont continuer d'exister. Ces projets ne seront pas supprimés même si cet utilisateur est le dernier utilisateur du projet. Supprimer le dernier utilisateur d'un projet interdit à quiconque d'y accéder de nouveau.",
+        "comment2": "Après avoir supprimé un utilisateur, il sera possible de créer un nouveau compte avec la même adresse email. Si vous souhaitez éviter que l'utilisateur puisse se connecter avec cette adresse, vous pouvez désactiver l'utilisateur plutôt que supprimer son compte.",
+        "delete": "Supprimer l'utilisateur {username}"
+    },
+    "editUserModal": {
+        "delete": "Supprimer l'utilisateur",
+        "edit": "Modifier {username}"
+    },
+    "tableJSONExporter": {
+        "encoding": "Encodage"
+    },
+    "tableXMLExporter": {
+        "encoding": "Encodage"
+    },
+    "kanbanViewStackContext": {
+        "createCard": "Créer une carte",
+        "editStack": "Modifier la colonne",
+        "deleteStack": "Supprimer la colonne",
+        "delete": "Supprimer {name}",
+        "deleteDescription": "Êtes-vous sur·e de vouloir supprimer la colonne {name} ? Supprimer une valeur revient à supprimer l'option correspondante de la liste déroulante, ce qui peut impliquer une perte d'information car les lignes contenant cette valeur auront désormais une valeur vide à la place pour ce champ."
+    },
+    "kanbanViewHeader": {
+        "stackBy": "Regrouper par",
+        "stackedBy": "Regroupé par {fieldName}",
+        "customizeCards": "Configurer les cartes"
+    },
+    "kanbanViewOptionForm": {
+        "selectOption": "Nom de la colonne"
+    },
+    "kanbanViewStakedBy": {
+        "title": "Champ de regroupement",
+        "chooseField": "Par quel champ de type « liste déroulante » souhaitez-vous regrouper vos cartes ?"
+    },
+    "kanbanViewStack": {
+        "uncategorized": "Sans catégorie",
+        "tryAgain": "Essayer encore",
+        "new": "Nouveau"
+    },
+    "dashboard": {
+        "title": "Statistiques",
+        "totals": "Résumé",
+        "totalUsers": "Nombre d'utilisateur",
+        "totalWorkspaces": "Nombre de projet",
+        "totalApplications": "Nombre d'application",
+        "newUsers": "Nouveaux utilisateurs",
+        "newUsers24h": "Sur les dernières 24h",
+        "newUsers7days": "sur les 7 derniers jours",
+        "newUsers30days": "Sur les 30 derniers jours",
+        "activeUsers": "Utilisateurs actifs",
+        "activeUsers24h": "Sur les dernières 24h",
+        "activeUsers7days": "sur les 7 derniers jours",
+        "activeUsers30days": "Sur les 30 derniers jours",
+        "viewAll": "Consulter"
+    },
+    "licenses": {
+        "titleNoLicenses": "Aucune licences trouvée",
+        "titleLicenses": "Licences",
+        "noLicensesDescription": "Votre instance de Baserow n'a aucune licence enregistrée. Une licence premium vous donne immédiatement accès à plusieurs fonctionnalités additionnelles. Si vous avez déjà une licence, vous pouvez l'enregistrer ici. Vous pouvez également en obtenir une en cliquant sur le bouton ci-dessous.",
+        "rowComments": "Commentaires par lignes",
+        "kanbanView": "Vue Kanban",
+        "exports": "Export JSON et XML",
+        "admin": "Interface d'administration",
+        "rowColoring": "Coloration des lignes",
+        "getLicense": "Obtenir une licence",
+        "baserowInstanceId": "Votre identifiant d'instance Baserow est :",
+        "registerLicense": "Activer une licence",
+        "licenceId": "Numéro de licence",
+        "premium": "Premium",
+        "expired": "Expirée",
+        "validity": "Valide du {start} au {end}",
+        "seats": "places",
+        "premiumFeatures": "Fonctionnalités premium"
+    },
+    "license": {
+        "title": "Plan {name}",
+        "users": "Utilisateurs",
+        "description": "Choisissez les utilisateurs qui peuvent utiliser les fonctionnalités du plan {product_code}. Cette licence vous permet de distribuer le plan {product_code} à un maximum de {seats} utilisateurs.",
+        "seatLeft": "Vous n'avez plus de place disponible|Il reste une seule place|Il reste {count} places",
+        "fillSeats": "Distribuer les places aux utilisateurs restants",
+        "removeAll": "Enlever tous les utilisateurs",
+        "licenseId": "Numéro de licence",
+        "addUser": "Ajouter un utilisateur",
+        "plan": "Plan",
+        "premium": "premium",
+        "expired": "Expirée",
+        "validFrom": "Début de validité",
+        "validThrough": "Fin de validité",
+        "validThroughDescription": "Quand la licence expire, les utilisateurs associés n'auront plus accès aux fonctionnalités offertes par la licence.",
+        "lastCheck": "Dernière vérification",
+        "lastCheckDescription": "La licence est vérifiée régulièrement. Si vous avez, par exemple, renouvelé ou mis à jour votre licence, les changements ne deviennent actifs qu'après la vérification.",
+        "checkNow": "Vérifier maintenant",
+        "seats": "Places (nombre d'utilisateur max.)",
+        "licensedTo": "Attribuée à",
+        "premiumFeatures": "Fonctionnalités premium",
+        "applications": "Applications / Bases de données",
+        "unlimited": "Illimité",
+        "rowUsage": "Nombre de ligne",
+        "storeUsage": "Espace disponible",
+        "disconnectLicense": "Déconnecter la licence",
+        "disconnectDescription": "Si vous déconnectez la licence alors que celle-ci est active, les utilisateurs associés n'auront plus accès aux fonctionnalités qu'elle offre. Cela retire définitivement la licence. Veuillez contacter notre support via {contact} si vous souhaitez utiliser cette licence sur une autre instance hebergée.",
+        "moreSeatsNeededTitle": "Besoin de plus d´utilisateurs",
+        "automaticSeatsProgressBarStatus": "{seats_taken} / {seats} utilisateurs payants et {free_users_count} utilisateurs gratuits",
+        "contactSalesMoreSeats": "Contacter un Vendeur pour plus d´utilisateurs",
+        "premiumFeatureName": "Premium",
+        "supportFeatureName": "Support",
+        "enterpriseFeatureName": "Enterprise"
+    },
+    "viewDecoratorType": {
+        "onlyOneDecoratorPerView": "Vous ne pouvez utiliser qu'une seule décoration de ce type par vue",
+        "onlyForPremium": "Disponible en version Premium",
+        "leftBorderColorDescription": "Ajoute un bord de couleur à gauche de l'enregistrement",
+        "leftBorderColor": "Bord gauche",
+        "backgroundColor": "Couleur de fond",
+        "backgroundColorDescription": "Change la couleur de fond d'un enregistrement"
+    },
+    "singleSelectColorValueProviderForm": {
+        "chooseAColor": "Par quelle liste déroulante l'enregistrement doit-il être coloré ?"
+    },
+    "decoratorValueProviderType": {
+        "conditionalColorDescription": "Définie une couleur quand l'enregistrement respecte des conditions",
+        "singleSelectColorDescription": "Utilise la même couleur que celle définie pour une liste déroulante",
+        "singleSelectColor": "Liste déroulante",
+        "conditionalColor": "Par conditions"
+    },
+    "conditionalColorValueProviderForm": {
+        "addColor": "Ajouter une couleur",
+        "addCondition": "Ajouter une condition",
+        "colorAlwaysApply": "Vous pouvez ajouter des conditions en cliquant sur le bouton « Ajouter une condition ».",
+        "title": "Couleurs",
+        "deleteColor": "Supprimer la couleur",
+        "colorAlwaysApplyTitle": "Cette couleur s'applique par défaut.",
+        "addConditionGroup": "Ajouter un groupe de condition"
+    },
+    "redirectToBaserowModal": {
+        "title": "Redirection vers http://baserow.io",
+        "content": "Vous allez quitter votre instance auto-hébergée et être redirigé vers http://baserow.io."
+    },
+    "premiumTopSidebar": {
+        "impersonateDescription": "L’identité de ce compte est usurpée. Une actualisation de la page l’arrêtera.",
+        "impersonateStop": "Arrêter",
+        "premium": "Premium",
+        "premiumDescription": "Votre compte a accès aux fonctionnalités premium globalement"
+    },
+    "premiumModal": {
+        "viewPricing": "Voir les prix",
+        "title": "Mise à niveau pour utiliser : {name}",
+        "description": "Votre compte n'a pas accès aux fonctionnalités premium. Passez à la version premium pour commencer à utiliser {nom}. Vous pouvez mettre votre compte à niveau en obtenant une licence. Cliquez sur le bouton ci-dessous pour voir les prix."
+    },
+    "premiumFeatures": {
+        "kanbanView": "Vue Kanban",
+        "rowComments": "Commentaires de ligne",
+        "exports": "Export JSON et XML",
+        "admin": "Administration avancée",
+        "rowColoring": "Coloration des lignes",
+        "surveyForm": "Formulaire de sondage",
+        "publicLogoRemoval": "Suppression du logo public",
+        "personalViews": "Vues privées",
+        "calendarView": "Vue Calendrier"
+    },
+    "formViewModePreviewSurvey": {
+        "deactivated": "Les sondage sont disponibles dans la version premium.",
+        "orderFields": "Ordonner les champs",
+        "more": "Plus d'informations"
+    },
+    "formViewModeType": {
+        "onlyForPremium": "Disponible en version premium",
+        "survey": "Sondage",
+        "surveyDescription": "Un seul champ est visible à la fois."
+    },
+    "shareLinkOptions": {
+        "baserowLogo": {
+            "label": "Masquer le logo Baserow sur la vue partagée",
+            "premiumModalName": "suppression du logo public"
+        }
+    },
+    "viewsContext": {
+        "personal": "Privée"
+    },
+    "calendarViewHeader": {
+        "displayBy": "Afficher par",
+        "displayedBy": "Affiché par le champ « {fieldName} »",
+        "labels": "Étiquettes"
+    },
+    "calendarMonthDay": {
+        "hiddenRowsCount": "0 | 1 de plus... | {hiddenRowsCount} de plus..."
+    },
+    "selectDateFieldModal": {
+        "chooseDateField": "Choix du champ de date",
+        "save": "Enregistrer"
+    },
+    "calendarDateSelector": {
+        "today": "Aujourd'hui"
+    },
+    "calendarMonthDayExpanded": {
+        "tryAgain": "Réessayez"
+    },
+    "dateFieldSelectForm": {
+        "dateField": "Quel champ souhaitez-vous utiliser pour cette vue ?",
+        "noCompatibleDateFields": "Il n’y a pas de champs de date dans ce tableau, veuillez d’abord en créer un."
+    },
+    "rowCommentContext": {
+        "edit": "Modifier le commentaire",
+        "delete": "Supprimer le commentaire"
+    },
+    "trashType": {
+        "row_comment": "commentaire de ligne"
+    },
+    "rowCommentMentionNotification": {
+        "title": "{sender} vous a mentionné dans la ligne {row} de la table {table}",
+        "deletedUser": "Un utilisateur a été supprimé"
+    },
+    "rowCommentNotification": {
+        "title": "{sender} a posté un commentaire pour la ligne {row} de {table}",
+        "deletedUser": "Un utilisateur a été supprimé"
+    },
+    "RowEditModalCommentNotificationMode": {
+        "modeMentionsDesc": "Vous ne recevrez les notifications uniquement lorsque vous serez mentionné·e.",
+        "modeAllTitle": "Tous les commentaires",
+        "modeAllDesc": "Vous recevrez des notifications pour tous les commentaires de cette ligne.",
+        "modeMentionsTitle": "Seulement les mentions"
+    }
+}

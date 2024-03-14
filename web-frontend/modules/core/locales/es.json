@@ -1,0 +1,683 @@
+{
+    "paginator": {
+        "page": "Página",
+        "of": "de {pages}"
+    },
+    "copied": {
+        "label": "¡Copiado!"
+    },
+    "sidebarApplication": {
+        "renameApplication": "Renombrar {type}",
+        "viewTrash": "ver papelera",
+        "deleteApplication": "Borrar {type}",
+        "duplicateApplication": "Duplicar {tipo}",
+        "snapshots": "Imágenes",
+        "rename": "Renombrar",
+        "duplicate": "Duplicar",
+        "delete": "Borrar"
+    },
+    "sidebar": {
+        "createWorkspace": "Crea un grupo",
+        "inviteOthers": "Invitar a otros",
+        "logoff": "Desconectarse",
+        "errorNoWorkspace": "No tienes ningún grupo.",
+        "admin": "Admin",
+        "dashboard": "Tablero",
+        "trash": "Papelera",
+        "settings": "Ajustes",
+        "members": "Miembros",
+        "notifications": "Notificaciones"
+    },
+    "accountForm": {
+        "nameLabel": "Tu nombre",
+        "languageLabel": "Lenguaje de interfaz"
+    },
+    "accountSettings": {
+        "title": "Cuenta",
+        "changedTitle": "Cambiado",
+        "changedDescription": "La información de su cuenta ha sido modificada.",
+        "submitButton": "Actualizar cuenta"
+    },
+    "settingsModal": {
+        "title": "Ajustes"
+    },
+    "passwordSettings": {
+        "title": "Cambia la contraseña",
+        "changedTitle": "contraseña cambiada",
+        "changedDescription": "Tu contraseña ha sido cambiada. La próxima vez que desee iniciar sesión, deberá utilizar su nueva contraseña.",
+        "oldPasswordLabel": "Contraseña anterior",
+        "oldPasswordRequiredError": "Se requiere contraseña anterior.",
+        "newPasswordLabel": "Nueva contraseña",
+        "repeatNewPasswordLabel": "repita la nueva contraseña",
+        "repeatNewPasswordMatchError": "Este campo debe coincidir con su nuevo campo de contraseña.",
+        "submitButton": "Cambia la contraseña",
+        "errorInvalidOldPasswordTitle": "Contraseña invalida",
+        "errorInvalidOldPasswordMessage": "No se pudo cambiar su contraseña porque su contraseña anterior no es válida."
+    },
+    "error": {
+        "alreadyExistsTitle": "El usuario ya existe",
+        "alreadyExistsMessage": "Ya existe un usuario con la dirección de correo electrónico proporcionada.",
+        "passwordRequired": "Se requiere una contraseña.",
+        "invalidEmail": "Por favor, introduce una dirección de correo electrónico válida.",
+        "disabledAccountTitle": "Cuenta deshabilitada",
+        "disabledAccountMessage": "Esta cuenta de usuario ha sido deshabilitada.",
+        "incorrectCredentialTitle": "credenciales incorrectas",
+        "incorrectCredentialMessage": "La dirección de correo electrónico o la contraseña proporcionadas son incorrectas.",
+        "inputRequired": "Se requiere entrada.",
+        "disabledPasswordProviderTitle": "La autentificación por contraseña está deshabilitada.",
+        "disabledPasswordProviderMessage": "Utilice otro proveedor de autentificación."
+    },
+    "field": {
+        "language": "Idioma",
+        "emailAddress": "Dirección de E-mail",
+        "name": "Tu nombre",
+        "password": "Contraseña",
+        "passwordRepeat": "Repita la contraseña"
+    },
+    "invitationTitle": "Invitación",
+    "invitationMessage": "{invitadoPor} te ha invitado a unirte a {espacio de trabajo}.",
+    "workspaceForm": {
+        "nameLabel": "Nombre"
+    },
+    "leaveWorkspaceModal": {
+        "title": "Abandonar {group}",
+        "message": "¿Está seguro de que desea abandonar el grupo {group}? Ya no podrá acceder a las aplicaciones relacionadas y, si desea recuperar el acceso, uno de los administradores debe invitarlo nuevamente. Si abandona el grupo, no se eliminará. Todos los demás miembros seguirán teniendo acceso a él. No es posible abandonar un grupo si eres el último administrador porque eso lo dejará sin mantenimiento.",
+        "leave": "Dejar grupo"
+    },
+    "dashboardWorkspace": {
+        "showMembers": "Miembros",
+        "createApplication": "Crear nuevo"
+    },
+    "workspaceInvitation": {
+        "title": "Invitación",
+        "message": "{by} te ha invitado a unirte a {group}.",
+        "reject": "Rechazar",
+        "accept": "Aceptar"
+    },
+    "workspaceMemberModal": {
+        "membersModalTitle": "{group} miembros",
+        "userDescription": "{user} - se unió hace {since}",
+        "invitationDescription": "invitado {since} hace",
+        "sendInvite": "Enviar invitación",
+        "userAlreadyInWorkspaceTitle": "El usuario ya está en el grupo.",
+        "userAlreadyInWorkspaceText": "No es posible enviar una invitación cuando el usuario ya es miembro del grupo.",
+        "userDescriptionPendingDeletion": "{usuario} - pendiente de borrar"
+    },
+    "workspaceInviteForm": {
+        "invitationFormTitle": "Invitar por correo electrónico",
+        "optionalMessagePlaceholder": "Mensaje opcional",
+        "errorInvalidEmail": "Por favor, introduce una dirección de correo electrónico válida.",
+        "errorTooLongMessage": "Los mensajes están limitados a {cantidad} caracteres."
+    },
+    "workspacesContext": {
+        "search": "Buscar grupos",
+        "noResults": "No se han encontrado resultados",
+        "createWorkspace": "Crea un grupo"
+    },
+    "workspaceContext": {
+        "renameWorkspace": "Renombrar grupo",
+        "members": "Miembros",
+        "viewTrash": "Ver papelera",
+        "leaveWorkspace": "Dejar grupo",
+        "deleteWorkspace": "Eliminar grupo",
+        "auditLog": "Registro de auditoría"
+    },
+    "createWorkspaceModal": {
+        "createNew": "Crear grupo nuevo",
+        "add": "Añadir grupo",
+        "defaultName": "Grupo sin titulo",
+        "permissionDeniedTitle": "Permiso denegado",
+        "permissionDeniedBody": "No tienes los permisos necesarios para crear un grupo nuevo."
+    },
+    "templateCategories": {
+        "search": "Buscar plantillas",
+        "title": "Plantillas"
+    },
+    "templateHeader": {
+        "use": "Usar esta plantilla"
+    },
+    "trashSidebar": {
+        "title": "Papelera",
+        "unnamedWorkspace": "Grupo sin nombre {id}"
+    },
+    "trashContents": {
+        "message": "Restaurar elementos eliminados del pasado {duration}",
+        "empty": "No se ha eliminado nada en los últimos tres días.",
+        "emptyButtonTrashed": "Eliminar {type} permanentemente",
+        "emptyButtonNotTrashed": "Vaciar la papelera de {type}",
+        "unnamed": "{type} {id} sin nombre"
+    },
+    "trashEmptyModal": {
+        "titleIsTrashed": "¿Estás seguro de que quieres eliminar permanentemente {name}?",
+        "titleIsNotTrashed": "¿Estás seguro de que quieres vaciar la papelera de {name}?",
+        "messageIsTrashed": "Esto lo eliminará permanentemente junto con todo su contenido. Después de lo cual no se pueden recuperar.",
+        "messageIsNotTrashed": "Esto eliminará permanentemente los elementos enumerados. Después de lo cual no se pueden recuperar.",
+        "buttonIsTrashed": "Borrar permanentemente",
+        "buttonIsNotTrashed": "Vacío"
+    },
+    "trashEntry": {
+        "deletedUser": "Un usuario eliminado",
+        "fromParent": "de {parent}",
+        "name": "{user} eliminó {type} {title} {parent}",
+        "restore": "Restaurar",
+        "unnamed": "{type} {id} sin nombre",
+        "andMore": "... y {cuenta} más"
+    },
+    "trashModal": {
+        "emptyTitle": "No se han encontrado espacios de trabajo",
+        "emptyMessage": "No eres miembro de ningún espacio de trabajo. Las aplicaciones como las bases de datos pertenecen a un espacio de trabajo, por lo que para crearlas es necesario crear un espacio de trabajo.",
+        "emptyMessageWithoutCreatePermission": "No eres miembro de ningún espacio de trabajo. Las aplicaciones como las bases de datos pertenecen a un espacio de trabajo, por lo que para crearlas necesitarás que un administrador te invite primero a un espacio de trabajo."
+    },
+    "uploadViaURLUserFileUpload": {
+        "title": "Subir desde una URL",
+        "urlLabel": "URL",
+        "urlError": "Se requiere una URL válida."
+    },
+    "userFilesModal": {
+        "title": "Subir desde"
+    },
+    "uploadFileUserFileUpload": {
+        "title": "Subir desde mi dispositivo",
+        "drop": "Dejar aquí",
+        "clickOrDrop": "Haga clic o suelte sus archivos aquí",
+        "retry": "Volver a intentar"
+    },
+    "createApplicationContext": {
+        "fromTemplate": "De la plantilla"
+    },
+    "applicationForm": {
+        "nameLabel": "Nombre"
+    },
+    "connectingNotification": {
+        "title": "Reconectando",
+        "content": "Reconectando con el servidor."
+    },
+    "failedConnectingNotification": {
+        "title": "Fallido",
+        "content": "La conexión con el servidor ha fallado. Actualice la página.",
+        "action": "Actualizar página"
+    },
+    "restoreNotification": {
+        "restore": "Restaurar {type} eliminado"
+    },
+    "errorLayout": {
+        "notFound": "La página que busca no ha sido encontrada. Esto puede deberse a que la URL es incorrecta o que no tiene permiso para ver esta página.",
+        "error": "Algo salió mal al cargar la página. Nuestros desarrolladores han sido notificados del problema. Intente actualizar o volver al panel de control.",
+        "backDashboard": "Volver al tablero",
+        "backLogin": "Atrás para iniciar sesión",
+        "wrong": "Algo salió mal",
+        "refresh": "Actualizar la página"
+    },
+    "dashboard": {
+        "title": "Tablero",
+        "alertTitle": "¡Necesitamos tu ayuda!",
+        "alertText": "Si considera que Baserow es útil, le agradeceríamos que nos haga participes o compartiera. Al compartir Baserow, nos ayuda a mejorar el producto y hacerlo más útil para usted.",
+        "tweetContent": "¡Eche un vistazo a @baserow, una herramienta de base de datos sin código de código abierto y una alternativa a Airtable!",
+        "redditTitle": "'Baserow: una base de datos sin código de código abierto",
+        "noWorkspaceTitle": "No se encontraron grupos",
+        "noWorkspaceText": "No eres miembro de ningún grupo. Las aplicaciones, como las bases de datos, pertenecen a un grupo, por lo que, para crearlas, debe crear un grupo.",
+        "createWorkspace": "Crea un grupo",
+        "becomeGithubSponsor": "Conviértase en un patrocinador de GitHub",
+        "starOnGitlab": "Márcanos con una estrella en GitLab",
+        "shareOnTwitter": "Tuitea sobre Baserow",
+        "shareOnReddit": "Compartir en Reddit",
+        "shareOnFacebook": "Compartir en Facebook",
+        "shareOnLinkedIn": "Compartir en LinkedIn",
+        "noWorkspaceTextWithoutCreatePermission": "No eres miembro de ningún grupo. Las aplicaciones como las bases de datos pertenecen a un grupo, así que para crearlas tendrás que ser invitado primero a un grupo por un administrador."
+    },
+    "login": {
+        "title": "Acceso",
+        "forgotPassword": "¿Se te olvidó tu contraseña?",
+        "passwordPlaceholder": "Introduce tu contraseña...",
+        "signUpText": "¿No tienes cuenta?",
+        "signUp": "Inscribirse",
+        "emailPlaceholder": "Introduce tu correo electrónico...",
+        "displayPasswordLogin": "Iniciar sesión con correo electrónico y contraseña",
+        "redirecting": "Redireccionando al proveedor de autentificación..."
+    },
+    "resetPassword": {
+        "title": "Restablecer la contraseña",
+        "newPassword": "Nueva contraseña",
+        "repeatNewPassword": "repita la nueva contraseña",
+        "submit": "Cambia la contraseña",
+        "changed": "Contraseña cambiada",
+        "errorInvalidLinkTitle": "Link inválido",
+        "errorInvalidLinkMessage": "No se pudo restablecer la contraseña porque el enlace no es válido.",
+        "errorLinkExpiredTitle": "Enlace expirado",
+        "errorLinkExpiredMessage": "El enlace de restablecimiento de contraseña ha caducado. Solicite otro.",
+        "disabled": "El restablecimiento de la contraseña está desactivado",
+        "disabledMessage": "No es posible restablecer la contraseña porque ha sido desactivada."
+    },
+    "signup": {
+        "headTitle": "Crear una nueva cuenta",
+        "title": "Inscribirse",
+        "disabled": "Registro está deshabilitado",
+        "disabledMessage": "No es posible crear una cuenta porque ha sido deshabilitada.",
+        "requireFirstUser": "¡Bienvenido a Baserow!",
+        "requireFirstUserMessage": "Por favor llena la forma de abajo para crear el usuario administrador.",
+        "login": "Iniciar sesión",
+        "passwordPlaceholder": "Introduce tu contraseña...",
+        "emailPlaceholder": "Introduce tu correo electrónico...",
+        "passwordRepeatPlaceholder": "Confirma tu contraseña...",
+        "loginText": "¿Ya tienes una cuenta?",
+        "namePlaceholder": "Introduce tu nombre..."
+    },
+    "forgotPassword": {
+        "title": "Contraseña olvidada",
+        "message": "Por favor, introduzca su dirección de correo electrónico en el formulario. Si encontramos una cuenta, le enviaremos un correo electrónico con un enlace para restablecer su contraseña.",
+        "submit": "Enviar enlace",
+        "confirmation": "Si su dirección de correo electrónico existe en nuestra base de datos, recibirá un enlace de restablecimiento de contraseña en su dirección de correo electrónico en unos minutos.",
+        "disabled": "Contraseña olvidada está desactivada",
+        "disabledMessage": "No es posible restablecer la contraseña porque ha sido deshabilitada.",
+        "loginText": "¿Ya tienes cuenta y contraseña?"
+    },
+    "settings": {
+        "settingsTitle": "Configuración de administrador",
+        "baserowInstanceId": "ID de instancia",
+        "instanceIdDescription": "El ID de instancia es el identificador único de su copia de Baserow.",
+        "accountRestrictions": "Restricciones de cuenta",
+        "settingAllowResetPasswordName": "Permitir el restablecimiento de la contraseña",
+        "settingAllowResetPasswordDescription": "Por defecto, los usuarios pueden solicitar un enlace para restablecer la contraseña.",
+        "settingAllowResetPasswordWarning": "Ten en cuenta que podrías bloquearte en el sistema y perder acceso sin opción de restablecerse si olvidas tu contraseña.",
+        "settingAllowNewAccountsName": "Permitir crear nuevas cuentas",
+        "settingAllowNewAccountsDescription": "De forma predeterminada, cualquier usuario que visite su dominio de Baserow puede registrarse para obtener una nueva cuenta.",
+        "enabled": "activado",
+        "settingAllowSignupsViaWorkspaceInvitationsName": "Permitir suscripciones a través de invitaciones grupales",
+        "settingAllowSignupsViaWorkspaceInvitationDescription": "Incluso si la creación de nuevas cuentas está deshabilitada, esta opción permite que los usuarios invitados directamente sigan creando una cuenta.",
+        "userDeletionGraceDelay": "Eliminación de usuarios",
+        "settingUserDeletionGraceDelay": "Retraso de gracia",
+        "settingUserDeletionGraceDelayDescription": "Este es el número de días sin iniciar sesión después de los cuales una cuenta programada para ser eliminada se borra permanentemente.",
+        "invalidAccountDeletionGraceDelay": "Este valor es obligatorio y debe ser un entero positivo menor que 32000",
+        "settingAllowNonStaffCreateWorkspaceOperation": "Permitir a todos crear nuevos grupos",
+        "settingAllowNonStaffCreateWorkspaceOperationDescription": "Por defecto, todos pueden crear grupos nuevos. Desactívalo para que sólo el equipo pueda crear nuevos grupos.",
+        "settingAllowNonStaffCreateWorkspaceOperationWarning": "A los nuevos usuarios se les creará automáticamente un grupo en el que serán administradores.",
+        "maintenance": "Mantenimiento",
+        "settingTrackWorkspaceUsage": "Seguimiento del uso del grupo",
+        "settingTrackWorkspaceUsageDescription": "Activa un trabajo nocturno que cuenta el uso de filas y archivos por grupo, mostrado en la página de administración de grupos premium."
+    },
+    "copyingNotification": {
+        "title": "Copiando...",
+        "content": "Preparando tus datos"
+    },
+    "undoRedoNotification": {
+        "undoingTitle": "Deshaciendo...",
+        "undoingText": "Deshaciendo tu acción",
+        "redoingText": "Rehaciendo tu acción",
+        "redoneTitle": "Rehecho",
+        "redoneText": "La acción es rehecha",
+        "noMoreRedo": "No hay más acciones que rehacer",
+        "skippingRedoDueToError": "Rehacer falló por un error desconocido, saltándolo.",
+        "failed": "Fallido",
+        "undoneTitle": "Deshecho",
+        "undoneText": "La acción es deshecha",
+        "noMoreUndo": "No hay más acciones que deshacer",
+        "skippingUndoDueToError": "Deshacer falló por un error desconocido, saltándolo.",
+        "redoingTitle": "Rehaciendo..."
+    },
+    "AuthorizationErrorNotification": {
+        "title": "Error de autorización",
+        "content": "Parece que no tienes permisos para ver este recurso.",
+        "action": "Refrescar página"
+    },
+    "formSidebar": {
+        "actions": {
+            "addAll": "Añadir todo",
+            "removeAll": "Eliminar todo",
+            "addField": "Añadir campo"
+        },
+        "fieldsDescription": "Todos los campos están en la forma.",
+        "prefillInfoLink": "Rellenar los valores dinámicamente",
+        "modal": {
+            "title": "Rellenar u ocultar campos de forma dinámica",
+            "descriptionPartOne": "Las formas pueden ser pre-rellenadas para ayudar al usuario rellenar la forma más rápido.",
+            "descriptionPartTwo": "Todos los campos disponibles en el formulario se pueden rellenar previamente.",
+            "howToPrefill": {
+                "title": "Cómo pre-llenar una forma",
+                "description": "Si quieres pre-llenar una forma con datos, puedes hacerlo a través de parámetros de consulta añadidos a la dirección pública de la forma. Estos parámetros de consulta tienen el prefijo `pre-llenar` para evitar cualquier colisión con posibles parámetros de consulta futuros."
+            },
+            "format": {
+                "title": "Formato",
+                "description": "El formato de los parámetros de consulta es:",
+                "codeSnippet": "?pre-llenar_<nombre_del_campo>=<valor>"
+            },
+            "example": {
+                "title": "Ejemplo",
+                "description": "En el siguiente ejemplo queremos rellenar previamente un campo llamado `Nombre` con el valor de `Mike`",
+                "codeSnippet": "?rellenar_Nombre=Mike"
+            },
+            "spaces": {
+                "title": "Espacios",
+                "description": "Los espacios en el nombre del campo se sustituyen por `+` para evitar problemas con el parámetro de consulta.",
+                "codeSnippet": "?rellenar_mi+campo=Mike"
+            },
+            "multipleValues": {
+                "title": "Valores múltiples",
+                "description": "Si quieres rellenar varios campos puedes hacerlo añadiendo un `,` entre los valores.",
+                "codeSnippet": "?rellenar_multi+seleccionar=Mike,John"
+            },
+            "specialFieldTypes": {
+                "title": "Tipos de campos especiales",
+                "description": "En general, el valor de relleno es el mismo que el valor del campo. Pero hay algunas excepciones en las que el valor se traduce en un valor diferente.",
+                "ratingField": {
+                    "title": "Campo de clasificación",
+                    "description": "Un campo de valoración acepta un número para indicar cuántas estrellas deben rellenarse.",
+                    "codeSnippet": "?rellenar_clasificación=3"
+                },
+                "linkRowField": {
+                    "title": "Campo de fila de enlace",
+                    "description": "Un campo de fila de enlace puede aceptar el valor que se muestra en el menú desplegable de selección.",
+                    "codeSnippet": "?rellenar_enlace+fila=Mike"
+                },
+                "selectField": {
+                    "title": "Campo de selección simple / selección múltiple",
+                    "description": "Un campo de selección simple puede aceptar el valor que se muestra en el desplegable de selección. Lo mismo ocurre con el campo de selección múltiple, pero también puede aceptar varios valores.",
+                    "codeSnippet": "?rellenar_selección+simple=Mike"
+                },
+                "dateField": {
+                    "title": "Campo de fecha",
+                    "description": "Un campo de fecha puede aceptar una fecha en los siguientes formatos y utilizará el formato de fecha del campo para analizar la fecha.",
+                    "codeSnippet": "\n// Normas\nISO_8601\n\n// Formatos generales\n'AAAA-MM-DD',\n'AAAA-MM-DD hh:mm A',\n'AAAA-MM-DD HH:mm',\n\n// UE\n'DD/MM/AAAA',\n'DD/MM/AAAA hh:mm A',\n\"DD/MM/AAAA HH:mm\"\n\n// US\n'MM/DD/AAAA',\n'MM/DD/AAAA hh:mm A',\n'MM/DD/AAAA HH:mm'"
+                }
+            },
+            "howToHide": {
+                "title": "Cómo ocultar un campo",
+                "description": "Si desea ocultar el campo dinámicamente, puede hacerlo a través de los parámetros de consulta agregados a la URL pública. Estos parámetros de consulta tienen el prefijo `hide_` para evitar errores con posibles parámetros de consulta futuros."
+            }
+        },
+        "prefillOrHideInfoLink": "Rellenar u ocultar dinámicamente",
+        "notifyUserOnSubmit": "Recibir una notificación de envío"
+    },
+    "deleteAccountSettings": {
+        "title": "Borrar cuenta",
+        "workspaceNotice": "Los grupos huérfanos se borraran",
+        "orphanWorkspaces": "También se borrará permanentemente después del tiempo de gracia",
+        "orphanWorkspaceMemberCount": "compartido con nadie|compartido con un usuario|compartido con {cuenta} usuarios",
+        "password": "Contraseña",
+        "passwordConfirm": "Repetir contraseña",
+        "repeatPasswordMatchError": "Este campo debe coincidir con el primer campo de contraseña.",
+        "submitButton": "Borrar cuenta",
+        "errorInvalidPasswordTitle": "Contraseña inválida",
+        "errorInvalidPasswordMessage": "No se ha podido eliminar tu cuenta porque tu contraseña no es válida.",
+        "errorUserIsLastAdminTitle": "Último administrador",
+        "errorUserIsLastAdminMessage": "No se ha podido eliminar tu cuenta porque eres el último administrador de esta instancia de Baserow.",
+        "accountDeletedSuccessTitle": "Eliminación de la cuenta programada",
+        "accountDeletedSuccessMessage": "Se ha programado la eliminación de tu cuenta.",
+        "workspaceLoadingError": "La comprobación de los grupos ha fallado",
+        "workspaceLoadingErrorDescription": "La comprobación de los grupos a eliminar ha fallado, favor de actualizar la página.",
+        "description": "Puedes programar la eliminación de tu cuenta introduciendo tu contraseña y haciendo clic en el botón. Tu cuenta será eliminada permanentemente después de {días}. Mientras tanto, si vuelves a conectarte, se cancelará la eliminación de tu cuenta.",
+        "workspaceNoticeDescription": "Cuando tu cuenta se elimina permanentemente, todos los grupos y datos asociados para los que eres el último usuario activo con permisos de administrador también se eliminarán. Los grupos que se muestran a continuación son los que se borrarán porque tú eres el único administrador. Para evitar que se borren, primero dale a otro usuario permisos de administrador antes de borrar tu cuenta."
+    },
+    "clearingNotification": {
+        "title": "Borrando...",
+        "content": "Preparando tus datos"
+    },
+    "dashboardSidebar": {
+        "links": "Enlaces",
+        "knowledgeBase": "Base de conocimientos",
+        "tutorials": "Tutoriales",
+        "userSettings": "Configuración de usuario",
+        "logoff": "Cerrar sesión",
+        "workspaces": "Grupos",
+        "trash": "Basura"
+    },
+    "pastingNotification": {
+        "content": "Preparar tus datos",
+        "title": "Pegando..."
+    },
+    "job": {
+        "errorJobAlreadyRunningDescription": "Ya se está corriendo otro trabajo de importación. Tienes que esperar a que termine ese antes de iniciar otro.",
+        "statePending": "Esperando para empezar...",
+        "stateStarted": "Empezó...",
+        "stateFinished": "Terminado",
+        "stateFailed": "Fallido",
+        "errorJobAlreadyRunningTitle": "Ya está corriendo"
+    },
+    "datetime": {
+        "daysAgo": "Hace 0 días | Hace 1 día | Hace {n} días",
+        "monthsAgo": "Hace 0 meses | Hace 1 mes | Hace {n} meses",
+        "yearsAgo": "Hace 0 años | Hace 1 año | Hace {n} años",
+        "minutesAgo": "Hace 0 minutos | Hace 1 minuto | Hace {n} minutos",
+        "hoursAgo": "Hace 0 horas | Hace 1 hora | Hace {n} horas",
+        "secondsAgo": "Ahora mismo | Hace 1 segundo | Hace {n} segundos"
+    },
+    "InstallTemplateJobType": {
+        "installing": "Instalando",
+        "installedTitle": "Plantilla instalada"
+    },
+    "duplicateApplicationJobType": {
+        "duplicatedTitle": "Aplicación duplicada",
+        "duplicating": "Duplicando"
+    },
+    "crudTableSearch": {
+        "search": "Buscar"
+    },
+    "membersSettings": {
+        "membersTable": {
+            "columns": {
+                "email": "Correo electrónico",
+                "role": "Rol predeterminado",
+                "name": "Nombre",
+                "teams": "Equipos",
+                "highestRole": "Cargo más alto",
+                "highestRoleHelpText": "El rol más alto asignado a este usuario directamente o desde un equipo, sobre cualquier cosa en este espacio de trabajo"
+            },
+            "actions": {
+                "remove": "Quitar del espacio de trabajo",
+                "copyEmail": "Copiar correo electrónico"
+            },
+            "title": "{cuentaDeUsuario} Miembros en {nombreDelEspacioDeTrabajo}",
+            "inviteMember": "Invitar a un miembro"
+        },
+        "invitesTable": {
+            "columns": {
+                "role": "Papel por defecto",
+                "message": "Mensaje",
+                "email": "Correo electrónico"
+            },
+            "actions": {
+                "copyEmail": "Copiar correo electrónico",
+                "remove": "Cancelar la invitación"
+            },
+            "title": "{invitacionesCantidad} Invitaciones pendientes en {nombreDeEspacioDeTrabajo}"
+        },
+        "membersInviteModal": {
+            "title": "Invitar a miembros del espacio de trabajo",
+            "errors": {
+                "userAlreadyInWorkspace": {
+                    "title": "El usuario ya está en el grupo.",
+                    "text": "No es posible enviar una invitación cuando el usuario ya es miembro del grupo."
+                }
+            },
+            "submit": "Enviar invitación",
+            "helpIconText": "El rol seleccionado será el rol por defecto de los usuarios en este espacio de trabajo."
+        },
+        "membersTabTitle": "Miembros",
+        "invitesTabTitle": "Invitaciones"
+    },
+    "UserSessionExpiredNotification": {
+        "title": "La sesión ha caducado",
+        "content": "Se ha cerrado la sesión porque el token de autenticación ha caducado. Por favor, inicie sesión de nuevo."
+    },
+    "memberAssignmentModalFooter": {
+        "invite": "Invita a {count}",
+        "selectAll": "Seleccionar todo",
+        "deselectAll": "Deseleccionar todo"
+    },
+    "memberSelectionList": {
+        "searchPlaceholder": "Encuentra...",
+        "selectedAmountLabel": "{count} seleccionado"
+    },
+    "removeFromWorkspaceModal": {
+        "confirmation": "¿Estás seguro de que quieres eliminar a {name} de {workspaceName}? Esta acción no se puede deshacer.",
+        "title": "Confirmar la eliminación del grupo",
+        "remove": "Quitar"
+    },
+    "permissionsUpdatedNotification": {
+        "title": "Permisos actualizados",
+        "content": "Esto puede afectar a lo que tienes acceso. Por favor recarga la página.",
+        "action": "Recargar"
+    },
+    "editRoleContext": {
+        "billableRolesLink": "Documentación sobre funciones facturables"
+    },
+    "highestPaidRoleField": {
+        "billable": "Facturable"
+    },
+    "failedConnectingToast": {
+        "title": "Fallido",
+        "content": "La conexión con el servidor ha fallado. Por favor, actualiza la página.",
+        "action": "Refrescar página"
+    },
+    "userSessionExpiredToast": {
+        "title": "Sesión expirada",
+        "content": "Se ha cerrado la sesión porque tu token de autenticación ha expirado. Vuelva a iniciar sesión."
+    },
+    "authorizationErrorToast": {
+        "action": "Refrescar página",
+        "title": "Error de autorización",
+        "content": "Parece que no tienes permiso de ver este recurso."
+    },
+    "restoreToast": {
+        "restore": "Restaurar {tipo} borrado"
+    },
+    "undoRedoToast": {
+        "undoneText": "La acción está deshecha",
+        "failed": "Fallido",
+        "undoingTitle": "Deshaciendo...",
+        "undoneTitle": "Deshecho",
+        "noMoreUndo": "No más acciones que deshacer",
+        "redoingTitle": "Rehaciendo...",
+        "redoneTitle": "Rehecho",
+        "noMoreRedo": "No más acciones que rehacer",
+        "undoingText": "Deshaciendo tu acción",
+        "skippingUndoDueToError": "Deshacer falló por un error desconocido, omitiéndolo.",
+        "redoingText": "Rehaciendo tu acción",
+        "redoneText": "Acción rehecha",
+        "skippingRedoDueToError": "Rehacer falló por un error desconocido, omitiéndolo."
+    },
+    "PastingToast": {
+        "content": "Preparando tus datos",
+        "title": "Pegando..."
+    },
+    "clearingToast": {
+        "content": "Preparando tus datos",
+        "title": "Borrando..."
+    },
+    "permissionsUpdatedToast": {
+        "action": "Recargar",
+        "title": "Permisos actualizados",
+        "content": "Esto puede afectar a lo que tiene acceso, por favor, vuelve a cargar la página."
+    },
+    "integrationEditForm": {
+        "name": "Nombre de la integración",
+        "namePlaceholder": "Introduce el nombre de la integración..."
+    },
+    "integrationCreateEditModal": {
+        "editTitle": "Editar integración",
+        "createTitle": "Nueva integración",
+        "warningTitle": "Advertencia"
+    },
+    "dropdown": {
+        "empty": "No hay artículos disponibles"
+    },
+    "styleSidePanel": {
+        "paddingBottom": "Acolchado inferior",
+        "paddingTop": "Acolchado superior"
+    },
+    "workspaceInvitationAcceptedNotification": {
+        "title": "{enviador} ha aceptado su invitación para unirse a {nombreDeEspacioDeTrabajo}",
+        "deletedUser": "Un usuario eliminado"
+    },
+    "workspaceInvitationCreatedNotification": {
+        "title": "{enviador} te ha invitado a unirte a {nombreDelEspacioDeTrabajo}",
+        "deletedUser": "Un usuario eliminado"
+    },
+    "notificationPanel": {
+        "clearAll": "Borrar todo",
+        "noNotification": "Te notificaremos las actualizaciones importantes y cada vez que te mencionen en Baserow.",
+        "title": "Notificaciones",
+        "markAllAsRead": "Marcar todo como leído",
+        "noNotificationTitle": "No tienes notificaciones",
+        "newNotificationsAvailable": "Nuevas notificaciones disponibles",
+        "refresh": "Refrescar"
+    },
+    "clearAllNotificationsConfirmModal": {
+        "title": "¿Estás seguro de que quieres borrar todas las notificaciones?",
+        "message": "Todas las notificaciones se borrarán permanentemente y no podrás volver a verlas."
+    },
+    "uploadFileDropzone": {
+        "errorTooManyFilesMessage": "Sólo puedes cargar un único archivo",
+        "drop": "Déjalo aquí",
+        "clickOrDrop": "Haz clic o suelta tus archivos aquí",
+        "errorTooManyFilesTitle": "Demasiados archivos",
+        "errorWrongFileTypeTitle": "Tipo de archivo incorrecto",
+        "errorWrongFileTypeMessage": "No se puede cargar un archivo de tipo {tipo}"
+    },
+    "connectingToast": {
+        "content": "Reconectando con el servidor.",
+        "title": "Reconectando"
+    },
+    "copyingToast": {
+        "title": "Copiando...",
+        "content": "Preparando sus datos"
+    },
+    "styleBoxForm": {
+        "paddingError": "El valor debe ser un número entero entre 0 y 200."
+    },
+    "richTextEditorMentionsList": {
+        "notFound": "No se encontraron usuarios"
+    },
+    "workspaceInvitationRejectedNotification": {
+        "title": "{enviador} ha rechazado su invitación para unirse a {nombreDeEspacioDeTrabajo}",
+        "deletedUser": "Un usuario eliminado"
+    },
+    "versionUpgradeNotification": {
+        "title": "{versión} ¡ya está aquí! Descubre qué hay de nuevo."
+    },
+    "userPasswordChangedToast": {
+        "title": "Contraseña cambiada",
+        "content": "Tu contraseña ha cambiado. Por favor, inicia sesión de nuevo."
+    },
+    "emailNotifications": {
+        "submitButton": "Actualizar la frecuencia",
+        "label": "Menciones, comentarios, y otras notificaciones",
+        "daily": "A diario",
+        "title": "Notificaciones por correo electrónico",
+        "never": "Nunca",
+        "weekly": "Semanal",
+        "description": "Configure la frecuencia de envío de correos electrónicos a tu bandeja de entrada.",
+        "instant": "Al instante"
+    },
+    "dataExplorer": {
+        "emptyText": "No hay datos",
+        "noMatchingNodesText": "No se han encontrado proveedores de datos coincidentes.",
+        "noProvidersText": "No se han encontrado proveedores de datos. Para empezar puedes, por ejemplo, añadir una fuente de datos o un parámetro de página."
+    },
+    "formulaInputField": {
+        "errorInvalidFormula": "La fórmula es inválida."
+    },
+    "integrationDropdown": {
+        "noIntegrations": "No se han encontrado integraciones.",
+        "addIntegration": "Añadir nueva integración",
+        "integrationPlaceholder": "Selecciona una integración",
+        "selectTypeFirst": "Primero elige el tipo"
+    },
+    "richTextEditorBubbleMenu": {
+        "bold": "Negrita",
+        "italic": "Cursiva",
+        "underline": "Subraye",
+        "strikethrough": "Tachado"
+    },
+    "richTextEditorFloatingMenu": {
+        "hierarchy": "Jerarquía",
+        "lists": "Listas",
+        "paragraph": "Párrafo",
+        "heading1": "Título 1",
+        "heading2": "Título 2",
+        "heading3": "Título 3",
+        "orderedList": "Lista numerada",
+        "unorderedList": "Lista de puntos",
+        "code": "Código",
+        "taskList": "Lista de tareas"
+    }
+}
